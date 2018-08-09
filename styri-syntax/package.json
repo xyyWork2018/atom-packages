@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+        "spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\as\\AppData\\Local\\Temp\\apm-install-dir-118416-23728-1bk3kau.hgcxov42t9"
+    ]
+  ],
+  "_from": "..\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+  "_id": "styri-syntax@0.2.0",
+  "_inCache": true,
+  "_location": "/styri-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+    "spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+  "_shasum": "43b5849392b874ac9dacee091f6392003807baf5",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118416-23728-1vd7g67.k3ui2g9zfr\\package.tgz",
+  "_where": "C:\\Users\\as\\AppData\\Local\\Temp\\apm-install-dir-118416-23728-1bk3kau.hgcxov42t9",
+  "bugs": {
+    "url": "https://github.com/chbk/styri-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A colorful and intuitive syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/chbk/styri-syntax#readme",
+  "keywords": [
+    "styri",
+    "color",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "styri-syntax",
+  "optionalDependencies": {},
+  "readme": "# Styri\n\n![](https://raw.githubusercontent.com/chbk/styri-syntax/images/simple.js.png?raw=true)\n\n![](https://raw.githubusercontent.com/chbk/styri-syntax/images/clear.md.png?raw=true)\n\n![](https://raw.githubusercontent.com/chbk/styri-syntax/images/pretty.css.png?raw=true)\n\n![](https://raw.githubusercontent.com/chbk/styri-syntax/images/easy.regexp.png?raw=true)\n\n## Installation\n\nFrom the command line: `apm install styri-syntax`\n\nOr directly in Atom:\n\n1. Open __Settings__ > __Install__\n2. Set the filter to __Themes__\n3. Search for `styri-syntax` and click __Install__\n\nOnce installed, open __Settings__ > __Themes__ and select __Styri__.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chbk/styri-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
+}

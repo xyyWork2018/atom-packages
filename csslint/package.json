@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+        "spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\as\\AppData\\Local\\Temp\\apm-install-dir-118221-3764-e9e4vp.2pxud0wwmi"
+    ]
+  ],
+  "_from": "..\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+  "_id": "csslint@1.2.0",
+  "_inCache": true,
+  "_location": "/csslint",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+    "spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+  "_shasum": "59583df637ed898416a77e5f11fe36c958d9e7aa",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\as\\AppData\\Local\\Temp\\d-118221-3764-xnkwb2.algllbx1or\\package.tgz",
+  "_where": "C:\\Users\\as\\AppData\\Local\\Temp\\apm-install-dir-118221-3764-e9e4vp.2pxud0wwmi",
+  "author": {
+    "name": "tcarlsen"
+  },
+  "bugs": {
+    "url": "https://github.com/tcarlsen/atom-csslint/issues"
+  },
+  "dependencies": {
+    "atom-message-panel": "1.2.7",
+    "csslint": "^0.10.0",
+    "loophole": "^1.0.0"
+  },
+  "description": "CSSLint error reports for your Atom editor",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.174.0"
+  },
+  "homepage": "https://github.com/tcarlsen/atom-csslint#readme",
+  "license": "MIT",
+  "main": "./lib/main",
+  "name": "csslint",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# CSSLint\n\n![](https://img.shields.io/apm/v/csslint.svg)\n![](https://img.shields.io/apm/dm/csslint.svg)\n![](https://img.shields.io/apm/l/csslint.svg)\n\n> [CSSLint](https://github.com/stubbornella/csslint) error reports for your [Atom](http://atom.io) editor.\n\n![preview](https://cloud.githubusercontent.com/assets/145288/5824124/9d6ddf2e-a0e2-11e4-8732-ef75c38c51d1.png)\n\n\n## Installation\n\nYou can install this plugin via the Packages manager in Atom itself or manually through the terminal\n\n```bash\n$ apm install csslint\n```\n\n## Usage\n\nCSSLint is by default validating on save (this can be changed in the package settings), you can also execute it by hitting `ctrl-alt-l`.\n\nIf you like you can even set it to validate while typing in the package settings.\n\nA global [.csslintrc](https://github.com/ebednarz/csslintrc/blob/master/.csslintrc) config file can be placed in your home folder and used in any project. However you can specify a project .csslintrc config file (found in root folder of project) that takes precedence over the global file.\n\n## Features\n\n * Validate on keymap (`ctrl-alt-l`)\n * Validate on command\n * Validate on save *(toggle in settings)*\n * Validate on change *(toggle in settings)*\n * Option to hide the error panel if no errors were found *(toggle in settings)*\n * Option to use `fold mode` by default *(toggle in settings)*\n * Supports [.csslintrc](https://github.com/ebednarz/csslintrc/blob/master/.csslintrc) config files *(project located file takes precedence over the global file)*\n\n## License\n\n[MIT](LICENSE.md) © tcarlsen\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcarlsen/atom-csslint.git"
+  },
+  "version": "1.2.0"
+}
